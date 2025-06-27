@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run CompanyMileage AI Support Bot",
+            "type": "shell",
+            "command": "python main.py",
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Run CompanyMileage AI Support Bot Web UI",
+            "type": "shell",
+            "command": "streamlit run webui.py",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

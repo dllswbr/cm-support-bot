@@ -1,0 +1,11 @@
+# Requirements for CompanyMileage AI Support Bot
+
+# PDF parsing
+pypdf
+# Embedding and vector storage
+sentence-transformers
+faiss-cpu
+# Chatbot interface
+streamlit
+# General
+openai
