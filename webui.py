@@ -12,7 +12,7 @@ def main():
         st.success('PDFs ingested!')
 
     st.write("Ask a question about CompanyMileage policies or support:")
-    question = st.text_input("Your question:", "How do I reset my password?")
+    question = st.text_input("Your question:", "How do I close the pay period?")
     if st.button("Get Answer") or question:
         with st.spinner('Thinking...'):
             answer = answer_question(question)
